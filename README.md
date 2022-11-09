@@ -25,7 +25,7 @@ Example Playbook
 
 ```yaml
 - name: Configure the plugins on all firewalls
-  hosts: all
+  hosts: opnsense
 
   roles:
     - role: mirceanton.opnsense_plugins
