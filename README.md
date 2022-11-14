@@ -11,9 +11,9 @@ This role requires the `lxml` python package to be installed on the host system.
 Role Variables
 --------------
 
-|           Variable           |     Type     |                            Description                            |
-| :--------------------------: | :----------: | :---------------------------------------------------------------: |
-|        opnsense_plugins         | list(string) | List of plugin names to install and enable. |
+|     Variable     |     Type     |                 Description                 |
+| :--------------: | :----------: | :-----------------------------------------: |
+| opnsense_plugins | list(string) | List of plugin names to install and enable. |
 
 Dependencies
 ------------
